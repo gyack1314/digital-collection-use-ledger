@@ -6,7 +6,7 @@
     {
       "file": "fixtures/patterns.jsonl",
       "rows": 181,
-      "sha256": "2d85adfa5ea70fbc99cfbef6bbad6e7f66bf0da0622c29afe7030d7bef6162a7",
+      "sha256": "d40973447b3b56615aa1a4b9a6f025a7f5d6c525a9e509eee6f5acc5acf73e37",
       "columns": [
         "allowed_use",
         "asset_id",
@@ -16,6 +16,7 @@
         "features",
         "in_review",
         "orientation",
+        "received_batch",
         "region",
         "revision",
         "row_id",
