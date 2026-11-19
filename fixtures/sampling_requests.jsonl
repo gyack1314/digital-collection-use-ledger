@@ -1,0 +1,2 @@
+{"row_id":"sampling_requests:000001","request_id":"SAMPLE1","size":12,"per_family_max":1,"collection_min":{"C0":2,"C1":2,"C2":2,"C3":2},"region_min":{"R0":1,"R1":1,"R2":1},"purpose":"design"}
+{"row_id":"sampling_requests:000002","request_id":"REVIEW1","size":8,"per_family_max":2,"collection_min":{"C0":1,"C1":1},"purpose":"review"}

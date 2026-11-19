@@ -1,0 +1,4 @@
+{"row_id":"expert_reviews:000001","review_id":"R1","left":"A000:1","right":"A001:1","relation":"same","status":"confirmed","revision":1,"received_batch":1}
+{"row_id":"expert_reviews:000002","review_id":"R2","left":"A001:1","right":"A002:1","relation":"same","status":"confirmed","revision":1,"received_batch":1}
+{"row_id":"expert_reviews:000003","review_id":"R3","left":"A000:1","right":"A002:1","relation":"different","status":"confirmed","revision":1,"received_batch":2}
+{"row_id":"expert_reviews:000004","review_id":"R3","left":"A000:1","right":"A002:1","relation":"different","status":"withdrawn","revision":2,"received_batch":3}

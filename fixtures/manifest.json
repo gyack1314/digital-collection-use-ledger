@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "synthetic": true,
+  "project": "纹样同源族识别与约束审阅的样本覆盖分析",
+  "tables": [
+    {
+      "file": "fixtures/patterns.jsonl",
+      "rows": 181,
+      "sha256": "2d85adfa5ea70fbc99cfbef6bbad6e7f66bf0da0622c29afe7030d7bef6162a7",
+      "columns": [
+        "allowed_use",
+        "asset_id",
+        "collection",
+        "color",
+        "craft",
+        "features",
+        "in_review",
+        "orientation",
+        "region",
+        "revision",
+        "row_id",
+        "split_group"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/labeled_pairs.jsonl",
+      "rows": 60,
+      "sha256": "2cc7fd4b6ebbc63ab4aa9ad7cae72ae218f37071e9a0f43ac6b8344f7c8a2349",
+      "columns": [
+        "label",
+        "left",
+        "pair_id",
+        "reviewer",
+        "revision",
+        "right",
+        "row_id",
+        "split",
+        "status"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/expert_reviews.jsonl",
+      "rows": 4,
+      "sha256": "45c7bd9fb6e76e4a2350c74833f3c0e19c13d22e9b46e4bbabe72941e7a4f388",
+      "columns": [
+        "left",
+        "received_batch",
+        "relation",
+        "review_id",
+        "revision",
+        "right",
+        "row_id",
+        "status"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    },
+    {
+      "file": "fixtures/sampling_requests.jsonl",
+      "rows": 2,
+      "sha256": "498083b6efa0d5eb16190f7fa597b0542211bc6e1b6bb1761359a26705f34e5a",
+      "columns": [
+        "collection_min",
+        "per_family_max",
+        "purpose",
+        "region_min",
+        "request_id",
+        "row_id",
+        "size"
+      ],
+      "unique_key": [
+        "row_id"
+      ]
+    }
+  ],
+  "scope": "本地合成的原始来源观察、业务政策与操作请求。"
+}
