@@ -68,12 +68,11 @@
     }
   ],
   "facts": {
-    "assets": 7,
-    "partners": 3,
     "license_scopes": [
       "research",
       "exhibition",
       "product"
     ]
-  }
+  },
+  "observed_record_count": 6
 }
